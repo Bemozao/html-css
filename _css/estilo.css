@@ -1,11 +1,10 @@
 @charset "UTF-8"
-/* Corpo do site */
+
 body {
     background-color: white;
     color: rgba(0,0,0,1)
 }
 
-/* Paragrafos */
 p {
 
     text-align: justify;
