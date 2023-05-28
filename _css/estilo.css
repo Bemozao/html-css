@@ -1,28 +1,43 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 body {
+    background-color: #dddddd;
+    color: rgb(0, 0, 0, 1);
+}
+
+div#interface {
+    width: 900px;
     background-color: white;
-    color: rgba(0,0,0,1)
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
 p {
-
     text-align: justify;
     text-indent: 50px;
 }
 
-/* Formatação de linguagens com legendas */
+header#cabecalho img#icone {
+    position: absolute;
+    left: 780px;
+    top: 40px;
+}
 
-figure.foto-legenda {
-
-    position: relative;
-    border: 8px solid white;
-    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+header#cabecalho {
 
 }
 
-figure.foto-legenda img{
 
+/* Formatação de linguagens com legendas */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+
+figure.foto-legenda img {
     width: 100%;
     height: 100%;
 }
@@ -31,7 +46,7 @@ figure.foto-legenda figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     width: 100%;
     height: 100%;
@@ -41,6 +56,45 @@ figure.foto-legenda figcaption {
 }
 
 figure.foto-legenda:hover figcaption {
-
     opacity: 1;
+}
+
+/*   FORMATAÇÃO MENU */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #cac6c6dd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
 }
