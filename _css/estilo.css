@@ -20,8 +20,8 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 780px;
-    top: 40px;
+    left: 955px;
+    top: 44px;
 }
 
 header#cabecalho {
@@ -70,7 +70,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 480px;
 }
 
 nav#menu li {
