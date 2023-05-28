@@ -20,14 +20,20 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 955px;
-    top: 44px;
+    left: 952px;
+    top: 69px;
 }
 
 header#cabecalho {
-
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30;
+}
 
 /* Formatação de linguagens com legendas */
 
